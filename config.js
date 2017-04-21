@@ -41,7 +41,7 @@ let databaseConfig = {
 };
 
 let ghostConfig = {
-    url: process.env.GHOST_URL || process.env.HEROKU_URL || 'http://localhost:2368/',
+    url: process.env.GHOST_URL || 'http://localhost:2368/',
     mail: mailConfig,
     fileStorage: true,
     storage: storageConfig,

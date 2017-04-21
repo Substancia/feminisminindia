@@ -34,25 +34,24 @@
             });
         </script>-->
 
+        {{{body}}}
+
         <div class="container">
-            {{{body}}}
-            <div class="container">
-                <footer id="footer" class="twelve columns">
-                    <br/>
-                    <br/>
-                    <section class="copyright">
-                        <a href="{{@blog.url}}">{{@blog.title}}</a>
-                        <span style="font-size: .8em; font-weight: 600;">
-                            <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA</a>
-                        </span>
-                        {{date format="YYYY"}}
-                    </section>
-                    <a href="{{twitter_url @blog.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="{{@blog.url}}/rss"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                    <br/>
-                    <br/>
-                </footer>
-            </div>
+            <footer id="footer" class="twelve columns">
+                <br/>
+                <br/>
+                <section class="copyright">
+                    <a href="{{@blog.url}}">{{@blog.title}}</a>
+                    <span style="font-size: .8em; font-weight: 600;">
+                        <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA</a>
+                    </span>
+                    {{date format="YYYY"}}
+                </section>
+                <a href="{{twitter_url @blog.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="{{@blog.url}}/rss"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                <br/>
+                <br/>
+            </footer>
         </div>
 
         {{ghost_foot}}

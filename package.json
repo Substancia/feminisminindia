@@ -1,0 +1,23 @@
+{
+  "name": "feminismindia.com",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaneGirish/feminismindia.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaneGirish/feminismindia.com/issues"
+  },
+  "homepage": "http://feminismindia.com/",
+  "version": "0.0.1",
+  "engines": {
+    "node": "^6.9.0"
+  },
+  "dependencies": {
+    "ghost": "^0.11.8",
+    "ghost-s3-storage-adapter": "norla/ghost-s3-storage-adapter"
+  },
+  "scripts": {
+    "start": "NODE_ENV='production' node server.js"
+  }
+}

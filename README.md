@@ -14,6 +14,6 @@ Link to staging area: https://feminismindia-staging.herokuapp.com/
 
 ### Process
 * Make changes to code
-* Run the website locally by running ```npm start```
+* Run the website locally by running ```npm start --development```
 * When you're happy with the changes, push the changes or create a pull request in GitHub.
 * Once your changes are pushed, you can see them at https://feminismindia-staging.herokuapp.com/

@@ -55,4 +55,4 @@ let ghostConfig = {
     }
 };
 
-module.exports = {production: ghostConfig};
+module.exports = {production: ghostConfig, development: ghostConfig};

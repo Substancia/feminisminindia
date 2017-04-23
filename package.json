@@ -14,11 +14,10 @@
     "node": "^6.9.0"
   },
   "dependencies": {
-    "cross-env": "^4.0.0",
     "ghost": "^0.11.8",
     "ghost-s3-storage-adapter": "norla/ghost-s3-storage-adapter"
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "node server.js"
   }
 }

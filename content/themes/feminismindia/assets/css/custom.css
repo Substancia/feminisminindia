@@ -43,6 +43,10 @@ aside.read-next {
     max-width: 800px;
 }
 
+.container.content > p > img {
+    max-width: 100%;
+}
+
 .header {
     margin-top: 6rem;
     text-align: center;

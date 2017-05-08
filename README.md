@@ -10,7 +10,7 @@ Link to staging area: https://feminismindia-staging.herokuapp.com/
 ### Requirements
 * NodeJS 6.x (https://nodejs.org/)
 * Git (https://git-scm.com/) or GitHub Desktop (https://desktop.github.com/)
-* Checkout this repository and run ```npm install --production```
+* Checkout this repository and run ```npm install --development```
 
 ### Process
 * Make changes to code
